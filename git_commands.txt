@@ -4,3 +4,8 @@ git add <filename>
 git status
 git commit -m "commit message"
 git restore <filename>
+git remote add origin <GitHub Repo URL>
+git remote set-url origin httpd://<TokenCode>@github.com/<GitHub Repo URL>
+git push origin master
+git clone <GitHub Repo URL>
+git remote -v
