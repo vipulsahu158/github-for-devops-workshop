@@ -1,8 +1,14 @@
-def hello():
+def hello(name: str = "Dosto") -> str:
     """
-    this is demo
+    This function returns a greeting message.
+    
+    Parameters:
+    name (str): The name of the person or group to greet. Defaults to "Dosto".
+    
+    Returns:
+    str: A greeting message.
     """
-    return "Hello Dosto"
+    return f"Hello {name}"
 
 
 hello()
